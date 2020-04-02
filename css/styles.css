@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'poppins', sans-serif;
+}
+
+#header {
+  text-align: center;
+  max-width: 35%;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+
+}
+
+.title {
+  font-weight: 200;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.headerText {
+  padding-top: 0.9rem;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+#cards {
+  margin: 2.5rem 9rem 5rem;
+}
+
+.card {
+  box-sizing: border-box;
+  border-radius: 0.55rem;
+  border: none;
+  border-top: solid 0.4rem;
+  height: 17rem;
+  box-shadow: 0 1.3rem 1.5rem 0 rgba(216, 226, 236, 0.7);
+  background-color: white;
+  position: relative;
+  margin: 2.2rem 0;
+
+}
+
+.card-body {
+  padding: 2rem 1.7rem 0 1.7rem;
+
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.cardText {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.cardImage {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.card-left {
+  border-color: hsl(180, 62%, 55%);
+  margin-top: 8.5rem;
+}
+
+.card-top {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.card-bottom {
+  border-color: hsl(34, 97%, 64%);
+}
+
+.card-right {
+  border-color: hsl(212, 86%, 64%);
+  margin-top: 8.5rem;
+}
