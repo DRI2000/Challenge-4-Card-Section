@@ -91,7 +91,7 @@ h2 {
 
 @media (max-width: 1144px) {
   #cards{
-    margin: 3rem auto 0;
+    margin: 3rem auto 3rem;
   }
   .card {
     margin: 0 auto 2rem;
